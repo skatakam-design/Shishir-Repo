@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// The Scanner class is used to get user input, and it is found in the java.util package.
 
 public class MyCalculator {
     // Properties of the calculator
@@ -55,10 +56,10 @@ public class MyCalculator {
         System.out.println("Welcome to My Calculator!");
 
         System.out.print("Enter first number: ");
-        double firstNumber = scanner.nextDouble();
+        double firstNumber = scanner.nextDouble(); // Reads a double value from the user
 
         System.out.print("Enter second number: ");
-        double secondNumber = scanner.nextDouble();
+        double secondNumber = scanner.nextDouble(); // Reads a double value from the user
 
         calculator.setNumbers(firstNumber, secondNumber);
 
