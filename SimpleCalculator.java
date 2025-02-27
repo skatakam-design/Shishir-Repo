@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SimpleCalculator {
+public class MyCalculator {
     // Properties of the calculator
     private double num1;
     private double num2;
@@ -50,9 +50,9 @@ public class SimpleCalculator {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        SimpleCalculator calculator = new SimpleCalculator();
+        MyCalculator calculator = new MyCalculator();
 
-        System.out.println("Welcome to the Simple Calculator!");
+        System.out.println("Welcome to My Calculator!");
 
         System.out.print("Enter first number: ");
         double firstNumber = scanner.nextDouble();
